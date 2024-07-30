@@ -5,7 +5,6 @@ This project aims to detect hand waves specifically intended to stop vehicles, d
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Demonstration](#demonstration)
 - [Technical Stack](#technical-stack)
 - [Technical Learnings](#technical-learnings)
 - [Results](#results)
