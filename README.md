@@ -45,16 +45,6 @@ This project aims to detect hand waves specifically intended to stop vehicles, d
 - OpenCV
 - YOLOv5 repository
 
-### Installation
-1. Clone the YOLOv5 repository:
-    ```bash
-    git clone https://github.com/ultralytics/yolov5
-    cd yolov5
-    ```
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### Usage
 1. Annotate your video frames and ensure they are properly labeled.
