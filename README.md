@@ -13,12 +13,6 @@ This project aims to detect hand waves specifically intended to stop vehicles, d
 - [Future Work](#future-work)
 - [Installation and Usage](#installation-and-usage)
 
-## Demonstration
-The project includes three demonstration videos:
-1. **Video 1:** Man waving hand to stop a taxi.
-2. **Video 2:** Man waving hand to say hello.
-3. **Video 3:** Man waving hand energetically to greet a friend, resembling a stop signal.
-
 ## Technical Stack
 - **Data Collection:** Videos recorded with various hand wave activities.
 - **Data Processing:** Frames extracted from videos and annotated with hand angles.
