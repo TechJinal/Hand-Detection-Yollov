@@ -2,7 +2,7 @@ import cv2
 from roboflow import Roboflow
 
 
-rf = Roboflow(api_key="Jx45L1eeVNbhRbpzBU28")
+rf = Roboflow(api_key="YOUR API KEY")
 project = rf.workspace("hand-wave-detection").project("hand_wave_detection")
 model = project.version(3).model
 
