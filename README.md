@@ -60,11 +60,8 @@ This project aims to detect hand waves specifically intended to stop vehicles, d
 1. Annotate your video frames and ensure they are properly labeled.
 2. Train the YOLOv5 model with your annotated data:
     ```bash
-    python train.py --img 640 --batch 16 --epochs 50 --data custom_data.yaml --cfg yolov5s.yaml --weights yolov5s.pt
+    python train.py --batch 8 --epochs 100 --data {dataset.location}/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name yolov5s_results  --cache
     ```
-3. Run the detection on new videos:
-    ```bash
-    python detect.py --source path_to_video --weights best.pt --conf 0.25
-    ```
+
 
 
