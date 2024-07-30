@@ -7,8 +7,8 @@ project = rf.workspace("hand-wave-detection").project("hand_wave_detection")
 model = project.version(3).model
 
 
-input_video_path = "/home/fiftyfive/Downloads/Studio_Project_V4.mp4"
-output_video_path = "/home/fiftyfive/Downloads/Hand Detection yolo/yolov5/detected_video/Studio_Project_V4.mp4"
+input_video_path = "video_path"
+output_video_path = "video_output_path"
 
 
 cap = cv2.VideoCapture(input_video_path)
@@ -24,7 +24,7 @@ while True:
         break
 
 
-    temp_frame_path = "/home/fiftyfive/Downloads/Hand Detection yolo/yolov5/detected_videos/temp_frame.jpg"
+    temp_frame_path = "path/to/temp.jpg"
     cv2.imwrite(temp_frame_path, frame)
 
 
@@ -50,4 +50,3 @@ while True:
 
 cap.release()
 out.release()
-# cv2.destroyAllWindows()
